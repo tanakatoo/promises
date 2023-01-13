@@ -2,3 +2,8 @@
 .stay{
     position: relative;
 }
+
+.top{
+    position: relative;
+    z-index: 100;
+}

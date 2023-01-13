@@ -71,7 +71,7 @@ document.querySelector("#getCard").addEventListener("click", (e) => {
                 } else {
                     ran = Math.floor(Math.random() * 45)
                 }
-                document.querySelector("#displayCards").innerHTML += `<img style="transform: rotate(${ran}deg); position: absolute; top:100px;left:100px;" src="${res.data.cards[0].images.png}">`
+                document.querySelector("#displayCards").innerHTML += `<img style="transform: rotate(${ran}deg); position: absolute; top:100px;left:100px;z-index:10;" src="${res.data.cards[0].images.png}">`
             }
 
         })
